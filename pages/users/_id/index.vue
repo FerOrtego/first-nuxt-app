@@ -8,6 +8,7 @@
     validate (data) {
       console.log(data)
       return /^\d+$/.test(data.params.id) //valida que sea un numero
-    }
+    },
+    layout:'users'
   }
 </script>
